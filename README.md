@@ -1,8 +1,3 @@
-# This file lists all individuals having contributed content to the repository.
-
-Nic Basilio <1451@holbertonschool.com>
-Samuel Pomeroy <samuel.m.pomeroy@gmail.com>
-vagrant@vagrant-ubuntu-trusty-64:~/HBnB-draft$ cat README.md
 # **0x00. AirBnB clone - The console**
 
 
