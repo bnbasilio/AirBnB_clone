@@ -100,7 +100,7 @@ class TestFileStorage(unittest.TestCase):
         self.assertIsInstance(__objects, dict)
         # __objects is empty to start
         self.assertEqual(len(__objects), 0)
-        # __objects can store an item with key:'<obj class name>.id', value: obj
+        # __objects can store item with key:'<obj class name>.id', value: obj
         bm1 = BaseModel()
         bm1_dict = bm1.to_dict()
         bm1__objects_key = bm1_dict['__class__'] + '.' + bm1.id
@@ -215,7 +215,7 @@ class TestFileStorage(unittest.TestCase):
         Separated into 2 test methods to run `models.__init__` once per method.
 
         """
-        # storage.__objects loaded w/ objects from storage.__file_path JSON file
+        # storage.__objects loaded w/ objs from storage.__file_path JSON file
         bm1 = BaseModel()
         bm1.save()
         FileStorage._FileStorage__objects = dict()
