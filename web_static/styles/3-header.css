@@ -7,5 +7,5 @@ header {
 header .logo {
   background-image: url("../images/logo.png");
   background-repeat: no-repeat;
-  left: 50px;
+  margin-left: 30px;
   height: 100% }
